@@ -26,6 +26,11 @@ export const Heading: ComponentStyleConfig = {
       fontSize: "1rem",
       color: "rgba(255, 255, 255, 0.6)",
     },
+    "Project-Title": {
+      fontWeight: 700,
+      fontSize: "1.3rem",
+      lineHeight: "34px",
+    },
   },
 };
 
@@ -42,6 +47,12 @@ export const Text: ComponentStyleConfig = {
     "Section-Paragraph": {
       fontSize: "1rem",
     },
+    "Project-Description": {
+      fontWeight: 400,
+      fontSize: "1rem",
+      lineHeight: "34px",
+      color: "rgba(255, 255, 255, 0.6)",
+    },
   },
 };
 
@@ -56,8 +67,8 @@ export const Button: ComponentStyleConfig = {
       fontSize: "0.5rem",
     },
     md: {
-      p: "3rem 4rem"
-    }
+      p: "3rem 4rem",
+    },
   },
   variants: {
     Primary: {
@@ -66,23 +77,36 @@ export const Button: ComponentStyleConfig = {
       p: "1.5rem 3rem",
       fontSize: "1rem",
       _hover: {
-        bg:"rgba(96, 22, 252, 0.7)"
+        bg: "rgba(96, 22, 252, 0.7)",
       },
       _active: {
-        bg: "rgba(96, 22, 252, 0.9)"
-      }
+        bg: "rgba(96, 22, 252, 0.9)",
+      },
     },
     "Primary-Light": {
-      background: "rgba(96, 22, 252, 0.3)",
+      background: "rgba(96, 22, 252, 0.2)",
       color: "#fff",
       p: "1.5rem 3rem",
       fontSize: "1rem",
-        _hover: {
-        bg:"rgba(96, 22, 252, 0.2)"
+      _hover: {
+        bg: "rgba(96, 22, 252, 0.2)",
       },
       _active: {
-        bg: "rgba(96, 22, 252, 0.3)"
-      }
+        bg: "rgba(96, 22, 252, 0.3)",
+      },
+    },
+    "Primary-Light-SM": {
+      background: "rgba(96, 22, 252, 0.2)",
+      color: "#fff",
+      fontWeight: 500,
+      p: "1rem 1.5rem",
+      fontSize: "0.9rem",
+      _hover: {
+        bg: "rgba(96, 22, 252, 0.2)",
+      },
+      _active: {
+        bg: "rgba(96, 22, 252, 0.3)",
+      },
     },
     "Primary-outline": {
       border: "1px solid rgba(96, 22, 252, 1)",
@@ -101,12 +125,44 @@ export const Button: ComponentStyleConfig = {
       color: "rgba(255,255,255,1)",
       p: "1.5rem 3rem",
       fontSize: "1rem",
+      _hover: {
+        bg: "rgba(255,255,255,0.2)",
+      },
+      _active: {
+        bg: "rgba(255,255,255,0.1)",
+      },
+    },
+    "secondary-Light-SM": {
+      background: "rgba(255,255,255,0.1)",
+      color: "rgba(255,255,255,1)",
+      fontWeight: 500,
+      p: "1rem 1.5rem",
+      fontSize: "0.9rem",
+      _hover: {
+        bg: "rgba(255,255,255,0.2)",
+      },
+      _active: {
+        bg: "rgba(255,255,255,0.1)",
+      },
     },
     "secondary-outline": {
       border: "1px solid  rgba(255,255,255,1)",
       color: "rgba(255,255,255,1)",
       p: "1.5rem 3rem",
       fontSize: "1rem",
+    },
+    "secondary-outline-SM": {
+      border: "1px solid  rgba(255,255,255,1)",
+      color: "rgba(255,255,255,1)",
+      fontWeight: 500,
+      p: "1rem 1.5rem",
+      fontSize: "0.9rem",
+      _hover: {
+        bg: "rgba(255,255,255,0.2)",
+      },
+      _active: {
+        bg: "rgba(255,255,255,0.1)",
+      },
     },
   },
 };
