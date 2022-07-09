@@ -11,7 +11,7 @@ export const Heading: ComponentStyleConfig = {
       fontWeight: 600,
       color: "#16fcd2",
     },
-    "Page-Title": {
+    "Section-Title": {
       fontSize: "clamp(1.625rem, 1.1786rem + 1.4286vw, 2.25rem)",
       fontWeight: 700,
       lineHeight: "54px",
@@ -33,12 +33,16 @@ export const Heading: ComponentStyleConfig = {
     },
     "Price-Title": {
       fontWeight: 700,
-      fontSize:"font-size: clamp(0.625rem, 0.3571rem + 0.8571vw, 1rem)",
+      fontSize: "font-size: clamp(0.625rem, 0.3571rem + 0.8571vw, 1rem)",
     },
     "Pricing-Price": {
       fontWeight: 700,
       fontSize: "clamp(1.625rem, 1.1786rem + 1.4286vw, 2.25rem)",
-    }
+    },
+    "Testimonial-Name": {
+      fontWeight: 700,
+      fontSize: "18px",
+    },
   },
 };
 
@@ -63,8 +67,17 @@ export const Text: ComponentStyleConfig = {
     },
     "Pricing-Detail": {
       fontsize: "font-size: clamp(0.5rem, 0.1429rem + 1.1429vw, 1rem)",
-      lineHeight: "36px"
-    }
+      lineHeight: "36px",
+    },
+    "Testimonial-Company": {
+      fontWeight: 500,
+      fontsize: "14px",
+    },
+    "Testimonial-Description": {
+      fontSize: "1rem",
+      fontWeight: 500,
+      color: "rgba(255, 255, 255, 1)",
+    },
   },
 };
 

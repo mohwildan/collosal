@@ -26,13 +26,13 @@ const Started = () => {
             <Text variant="Pricing-Detail">4 revisions</Text>
             <Text variant="Pricing-Detail">$100/addtional page</Text>
           </CardStarted>
-          <CardStarted title="Ui Design" price="1200$" color="#233679">
+          <CardStarted title="Develotment" price="5000$" color="#233679">
             <Text variant="Pricing-Detail">Web & Mobile</Text>
             <Text variant="Pricing-Detail">Well-documented</Text>
             <Text variant="Pricing-Detail">8 revisions</Text>
             <Text variant="Pricing-Detail">$100/addtional page</Text>
           </CardStarted>
-          <CardStarted title="Ui Design" price="1200$" color="#792366">
+          <CardStarted title="Maintenance" price="1200$" color="#792366">
             <Text variant="Pricing-Detail">Daily backup</Text>
             <Text variant="Pricing-Detail">3 h of mantinenance</Text>
             <Text variant="Pricing-Detail">Including fixing</Text>
