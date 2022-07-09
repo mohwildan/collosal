@@ -64,8 +64,8 @@ const SliderTestimonial = () => {
             name="Courtney Henry"
             company="Biffco Enterprises Ltd."
           >
-            "Very easy to use. I made back the purchase price in just 48 hours!
-            It's great. It's is both attractive and highly adaptable."
+            &quot;Very easy to use. I made back the purchase price in just 48 hours!
+            It&apos;s great. It&apos;s is both attractive and highly adaptable.&quot;
           </SliderTestimonialContent>
         </SwiperSlide>
         <SwiperSlide>
@@ -74,9 +74,9 @@ const SliderTestimonial = () => {
             name="Esther Howard"
             company="Abstergo Ltd."
           >
-            "Your company is truly upstanding and is behind its product 100%.
-            It's the perfect solution for our business. It has really helped our
-            business."
+            &quot;Your company is truly upstanding and is behind its product 100%.
+            It&apos;s the perfect solution for our business. It has really helped our
+            business.&quot;
           </SliderTestimonialContent>
         </SwiperSlide>
         <SwiperSlide>
@@ -85,9 +85,9 @@ const SliderTestimonial = () => {
             name="Ronald Richards"
             company="Barone LLC."
           >
-            "I am really satisfied with it. I'm good to go. It really saves me
-            time and effort. It's is exactly what our business has been lacking.
-            "
+            &quot;I am really satisfied with it. I&apos;m good to go. It really saves me
+            time and effort. It&apos;s is exactly what our business has been lacking.
+            &quot;
           </SliderTestimonialContent>
         </SwiperSlide>
         <SwiperSlide>
@@ -96,9 +96,9 @@ const SliderTestimonial = () => {
             name="Ronald Richards"
             company="Barone LLC."
           >
-            "I am really satisfied with it. I'm good to go. It really saves me
-            time and effort. It's is exactly what our business has been lacking.
-            "
+            &quot;I am really satisfied with it. I&apos;m good to go. It really saves me
+            time and effort. It&apos;s is exactly what our business has been lacking.
+            &quot;
           </SliderTestimonialContent>
         </SwiperSlide>
         <SwiperSlide>
@@ -107,9 +107,9 @@ const SliderTestimonial = () => {
             name="Ronald Richards"
             company="Barone LLC."
           >
-            "I am really satisfied with it. I'm good to go. It really saves me
-            time and effort. It's is exactly what our business has been lacking.
-            "
+            &quot;I am really satisfied with it. I&apos;m good to go. It really saves me
+            time and effort. It&apos;s is exactly what our business has been lacking.
+            &quot;
           </SliderTestimonialContent>
         </SwiperSlide>
       </Swiper>

@@ -16,7 +16,7 @@ const Problem = () => {
         variant="Section-Title"
         textAlign={{ base: "center", md: "left" }}
       >
-        We've prepared everything, it's time for you to tell the problem
+        We&apos;ve prepared everything, it&apos;s time for you to tell the problem
       </Heading>
       <Flex gap={4} flexDir={{ base: "column", sm: "row" }}>
         <Button variant="Primary">Send Quote</Button>
