@@ -7,12 +7,12 @@ export const Heading: ComponentStyleConfig = {
   },
   variants: {
     "Section-Badge": {
-      fontSize: "1rem",
+      fontSize: "font-size: clamp(0.625rem, 0.3571rem + 0.8571vw, 1rem)",
       fontWeight: 600,
       color: "#16fcd2",
     },
     "Page-Title": {
-      fontSize: "36px",
+      fontSize: "clamp(1.625rem, 1.1786rem + 1.4286vw, 2.25rem)",
       fontWeight: 700,
       lineHeight: "54px",
     },
@@ -31,6 +31,14 @@ export const Heading: ComponentStyleConfig = {
       fontSize: "1.3rem",
       lineHeight: "34px",
     },
+    "Price-Title": {
+      fontWeight: 700,
+      fontSize:"font-size: clamp(0.625rem, 0.3571rem + 0.8571vw, 1rem)",
+    },
+    "Pricing-Price": {
+      fontWeight: 700,
+      fontSize: "clamp(1.625rem, 1.1786rem + 1.4286vw, 2.25rem)",
+    }
   },
 };
 
@@ -42,17 +50,21 @@ export const Text: ComponentStyleConfig = {
   },
   variants: {
     "Page-Description": {
-      fontSize: "1rem",
+      fontSize: "font-size: clamp(0.5rem, 0.1429rem + 1.1429vw, 1rem)",
     },
     "Section-Paragraph": {
-      fontSize: "1rem",
+      fontSize: "font-size: clamp(0.5rem, 0.1429rem + 1.1429vw, 1rem)",
     },
     "Project-Description": {
       fontWeight: 400,
-      fontSize: "1rem",
+      fontSize: "font-size: clamp(0.5rem, 0.1429rem + 1.1429vw, 1rem)",
       lineHeight: "34px",
       color: "rgba(255, 255, 255, 0.6)",
     },
+    "Pricing-Detail": {
+      fontsize: "font-size: clamp(0.5rem, 0.1429rem + 1.1429vw, 1rem)",
+      lineHeight: "36px"
+    }
   },
 };
 
@@ -60,15 +72,6 @@ export const Button: ComponentStyleConfig = {
   baseStyle: {
     borderRadius: "3px",
     fontWeight: 600,
-  },
-  sizes: {
-    sm: {
-      p: "1rem 1.5rem",
-      fontSize: "0.5rem",
-    },
-    md: {
-      p: "3rem 4rem",
-    },
   },
   variants: {
     Primary: {
@@ -114,7 +117,7 @@ export const Button: ComponentStyleConfig = {
       p: "1.5rem 3rem",
       fontSize: "1rem",
     },
-    secondary: {
+    Secondary: {
       background: "rgba(255,255,255,1)",
       color: "#000",
       p: "1.5rem 3rem",

@@ -24,7 +24,7 @@ const Porojects = () => {
           We have completed many amazing projects that you will not believe
         </Heading>
       </Container>
-      <Flex flexDir={{base: "column", md: "row"}} mt={12} gap={5} alignItems="center" justifyContent="center">
+      <Flex flexDir={{base: "column", md: "row"}} mt={12} gap={10} alignItems="center" justifyContent="center">
         <Flex flexDir="column">
           <Image src={ImageMobileApp} placeholder="blur" />
           <Heading mt={4} variant="Project-Title">The Mobile Landing Page</Heading>
