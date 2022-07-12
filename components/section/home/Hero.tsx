@@ -1,11 +1,8 @@
-import {
-  Button,
-  Container,
-  Heading,
-  Stack,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Button, Container, Heading, Stack, Text } from "@chakra-ui/react";
 import Layout from "../../Layout/Layout";
+import PageDescription from "../../Typografy/PageDescription";
+import PageTitle from "../../Typografy/SectionTitle";
+import SectionBadge from "../../Typografy/SectionBadge";
 import CardMain from "./CardMain";
 import Seponsor from "./Seponsor";
 const Hero = () => {
@@ -19,18 +16,17 @@ const Hero = () => {
         textAlign="center"
         maxW={{ base: "100%", md: "35rem" }}
       >
-        <Heading variant="Section-Badge">CLIENT-DEVELOPMENT DRIVEN</Heading>
-        <Heading variant="Page-Title" mt={4}>
-          We Design. We Develop. We Ship. In The Same Day.
-        </Heading>
-        <Text mt={4} variant="Page-Description">
+        <SectionBadge>CLIENT-DEVELOPMENT DRIVEN</SectionBadge>
+        <PageTitle>We Design. We Develop. We Ship. In The Same Day.</PageTitle>
+        <PageDescription>
+          {" "}
           We are committed to not making clients wait. We will deliver the work
           as quickly as possible. Even on the same day. Even so, we do not
           reduce the quality of our work.
-        </Text>
+        </PageDescription>
         <Stack direction={{ base: "column", sm: "row" }} mt={4} gap={4}>
           <Button variant="Primary">Send Quote</Button>
-          <Button variant="Primary-Light">Lear More</Button>
+          <Button variant="secondary-Light">Lear More</Button>
         </Stack>
       </Container>
       <CardMain />

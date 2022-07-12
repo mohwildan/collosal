@@ -6,7 +6,7 @@ import Navbar from "../Navbar/Navbar";
 
 const Main: FC<NodeProps> = ({ children }) => {
   return (
-    <Box as="main">
+    <Box as="main" position="relative">
       <Head>
         <title>Collosal - Home</title>
       </Head>

@@ -16,7 +16,7 @@ const components = {
 const styles = {
   global: () => ({
     body: {
-      bg: "#292944",
+      bg: "#0B0B22",
       color: "#fff"
     }
   })

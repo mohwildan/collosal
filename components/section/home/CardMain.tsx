@@ -13,16 +13,19 @@ const CardMain = () => {
       alignItems="center"
     >
       <Card
+      delay={0.1}
         icon={FiFigma}
         text="Design"
         desc="The project interface will be designed first, our favorite tool is Figma."
       />
       <Card
+      delay={0.3}
         icon={BsCode}
         text="Develop"
         desc="Transform design and write business logic here. Choose the technology you want."
       />
       <Card
+      delay={0.5}
         icon={BsBox}
         text="Ship"
         desc="After the work is complete, we will send the project and all its assets to you."

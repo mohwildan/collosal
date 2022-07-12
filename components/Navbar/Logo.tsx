@@ -26,7 +26,7 @@ const Logo = () => {
     <Flex alignItems="center" gap={2} cursor="pointer">
       <motion.div
         whileInView={{ rotate: -90 }}
-        transition={{ delay: 0.3, duration: 0.2, type: "spring" }}
+        transition={{ delay: 0.3, duration: 0.6, type: "spring" }}
       >
         <Image src={LogoCollosal} />
       </motion.div>

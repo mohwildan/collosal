@@ -6,6 +6,8 @@ import Buble1 from "../../../public/bububle/Ellipse 15.svg";
 import Buble2 from "../../../public/bububle/Ellipse 16.svg";
 import Buble3 from "../../../public/bububle/Ellipse 17.svg";
 import { motion } from "framer-motion";
+import SectionBadge from "../../Typografy/SectionBadge";
+import SectionTitle from "../../Typografy/SectionTitle";
 
 const Porojects = () => {
   return (
@@ -41,10 +43,11 @@ const Porojects = () => {
         </Box>
       </motion.div>
       <Container>
-        <Heading variant="Section-Badge">PROJECTS</Heading>
-        <Heading mt={4} variant="Section-Title">
+        <SectionBadge>PROJECTS</SectionBadge>
+        <SectionTitle>
+          {" "}
           We have completed many amazing projects that you will not believe
-        </Heading>
+        </SectionTitle>
       </Container>
       <Flex
         flexDir={{ base: "column", md: "row" }}
