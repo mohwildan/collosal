@@ -5,6 +5,7 @@ import Layout from "../components/Layout/Main";
 import Font from "../lib/components/Font";
 import { useState } from "react";
 import { useEffect } from "react";
+import { AnimatePresence } from "framer-motion";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [showChild, setShowChild] = useState(false);
@@ -21,12 +22,14 @@ function MyApp({ Component, pageProps }: AppProps) {
     return <></>;
   } else {
     return (
-      <ChakraProvider theme={theme}>
-        <Font />
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
-      </ChakraProvider>
+      <AnimatePresence>
+        <ChakraProvider theme={theme}>
+          <Font />
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </ChakraProvider>
+      </AnimatePresence>
     );
   }
 }

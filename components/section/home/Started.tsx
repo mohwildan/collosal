@@ -3,7 +3,7 @@ import CardStarted from "./CardStarted";
 
 const Started = () => {
   return (
-    <Box mt="6rem" py="6rem" bg="#221048" borderRadius="30px">
+    <Box mt="6rem" py="6rem" bg="#221048" borderRadius="30px" px="1.3rem">
       <Box textAlign="center">
         <Container maxW={{ base: "100%", md: "35rem" }}>
           <Heading variant="Section-Badge">GET STARTED</Heading>
