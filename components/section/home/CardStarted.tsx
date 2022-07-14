@@ -34,7 +34,7 @@ const CardStarted: FC<Props> = ({
       borderRadius="10px"
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
-      viewport={{once: true, amount: 1}}
+      viewport={{once: true, amount: 0.5}}
       transition={{delay, type, duration}}
     >
       <Flex justifyContent="space-between" alignItems="flex-start" mt="4rem">

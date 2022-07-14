@@ -5,30 +5,40 @@ import PageTitle from "../../Typografy/SectionTitle";
 import SectionBadge from "../../Typografy/SectionBadge";
 import CardMain from "./CardMain";
 import Seponsor from "./Seponsor";
+import { motion } from "framer-motion";
+import { AnimationsVariant } from "../../animate/AnimationsVariant";
 const Hero = () => {
   return (
     <Layout>
-      <Container
-        display="flex"
-        alignItems="center"
-        justifyContent="center"
-        flexDir="column"
-        textAlign="center"
-        maxW={{ base: "100%", md: "35rem" }}
+      <motion.div
+        variants={AnimationsVariant}
+        initial="visibleTop"
+        animate="view"
       >
-        <SectionBadge>CLIENT-DEVELOPMENT DRIVEN</SectionBadge>
-        <PageTitle>We Design. We Develop. We Ship. In The Same Day.</PageTitle>
-        <PageDescription>
-          {" "}
-          We are committed to not making clients wait. We will deliver the work
-          as quickly as possible. Even on the same day. Even so, we do not
-          reduce the quality of our work.
-        </PageDescription>
-        <Stack direction={{ base: "column", sm: "row" }} mt={4} gap={4}>
-          <Button variant="Primary">Send Quote</Button>
-          <Button variant="secondary-Light">Lear More</Button>
-        </Stack>
-      </Container>
+        <Container
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
+          flexDir="column"
+          textAlign="center"
+          maxW={{ base: "100%", md: "35rem" }}
+        >
+          <SectionBadge>CLIENT-DEVELOPMENT DRIVEN</SectionBadge>
+          <PageTitle>
+            We Design. We Develop. We Ship. In The Same Day.
+          </PageTitle>
+          <PageDescription>
+            {" "}
+            We are committed to not making clients wait. We will deliver the
+            work as quickly as possible. Even on the same day. Even so, we do
+            not reduce the quality of our work.
+          </PageDescription>
+          <Stack direction={{ base: "column", sm: "row" }} mt={4} gap={4}>
+            <Button variant="Primary">Send Quote</Button>
+            <Button variant="secondary-Light">Lear More</Button>
+          </Stack>
+        </Container>
+      </motion.div>
       <CardMain />
       <Seponsor />
     </Layout>

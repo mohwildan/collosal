@@ -12,9 +12,9 @@ interface Props {
 const AnimationsLogo: FC<Props> = ({ delay = 0, children }) => {
   return (
     <motion.span
-      initial={{ opacity: 0, y: -50 }}
+      initial={{ opacity: 0.3, y: -50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ delay, duration: 0.4 }}
+      transition={{ delay, duration: 0.8, yoyo:Infinity }}
     >
       {children}
     </motion.span>
